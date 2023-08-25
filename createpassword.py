@@ -31,3 +31,10 @@ else:
         if question2.lower() == "y":
             break
 
+#! Password validator, this will ask if you want to check how secure your current password is
+
+def Passwordchecker():
+    questionuser = input("Input in here: ")
+    secure_lenght = range(8,99999999999999999999999999999999999999999999999999999999999999999999999999999999999999)
+    
+    #if len(questionuser) == secure_lenght
