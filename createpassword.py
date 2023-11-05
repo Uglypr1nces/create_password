@@ -45,8 +45,6 @@ if askuser == "create":
     def createhardpassword():
         return ''.join(random.choice(hard)for _ in range(newlenght))  # Generates an 8-character password
 
-    def createeasypassword():
-        return ''.join(random.choice(easy)for _ in range(newlenght))  # Generates an 8-character password
 
     question = input("Do you want a simple password or a hard one? (simple, hard) ")
     if question == "hard":
